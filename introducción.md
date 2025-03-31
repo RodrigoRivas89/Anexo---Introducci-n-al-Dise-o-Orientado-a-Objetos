@@ -7,9 +7,10 @@ El paradigma orientado a objetos (POO) es un enfoque de programación que organi
 
 El POO es importante por su modularidad, su reutilización de código, su escalabilidad, su mantenimiento y su facilidad de compresión
 
-## Los cuatro fundamentos del POO
+### Los cuatro fundamentos del POO
 [insertar link]
 
+### Requisitos iniciales del sistema
 Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
 1. Registro y gestión de pacientes
 
@@ -31,6 +32,7 @@ El sistema debe enviar notificaciones automáticas a los pacientes para recordar
 
 El sistema debe generar informes detallados sobre la ocupación de turnos, la cantidad de pacientes atendidos por especialidad, tiempos de espera, etc. Debe permitir la generación de estadísticas para ayudar a los administradores del centro de salud a tomar decisiones basadas en la demanda de servicios, la eficiencia del personal y el tiempo de atención.
 
+### Casos de uso
 A continuación se mencionaran los casos de uso de los requisitos mencionados
 
 1. Caso de uso: Registrar paciente
@@ -132,3 +134,5 @@ Flujo principal de eventos:
 Precondiciones: El administrador debe estar autenticado y tener permisos para acceder a los informes.
 
 Postcondiciones: El reporte es generado y puesto a disposición del administrador, quien puede analizarlo para tomar decisiones
+
+### Boceto inicial del diseño de clases
