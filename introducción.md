@@ -7,6 +7,7 @@ El paradigma orientado a objetos (POO) es un enfoque de programación que organi
 
 El POO es importante por su modularidad, su reutilización de código, su escalabilidad, su mantenimiento y su facilidad de compresión
 
+## Los cuatro fundamentos del POO
 [insertar link]
 
 Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
