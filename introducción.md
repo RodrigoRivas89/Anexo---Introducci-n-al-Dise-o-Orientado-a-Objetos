@@ -29,3 +29,71 @@ El sistema debe enviar notificaciones automáticas a los pacientes para recordar
 5. Informes y estadísticas
 
 El sistema debe generar informes detallados sobre la ocupación de turnos, la cantidad de pacientes atendidos por especialidad, tiempos de espera, etc. Debe permitir la generación de estadísticas para ayudar a los administradores del centro de salud a tomar decisiones basadas en la demanda de servicios, la eficiencia del personal y el tiempo de atención.
+
+A continuación se mencionaran los casos de uso de los requisitos mencionados
+
+1. Caso de uso: Registrar paciente
+Nombre del caso de uso: Registrar paciente
+Actor(es) involucrado(s): Administrador, Recepcionista
+Descripción breve: Permite registrar la información básica de un nuevo paciente en el sistema.
+Flujo principal de eventos:
+El recepcionista ingresa al sistema de gestión de turnos.
+El recepcionista selecciona la opción "Registrar paciente".
+El sistema solicita los datos básicos del paciente (nombre, apellido, edad, sexo, número de contacto, etc.).
+El recepcionista ingresa la información solicitada.
+El sistema guarda la información en la base de datos y genera un identificador único para el paciente.
+El sistema confirma que el registro se ha realizado correctamente.
+Precondiciones: El recepcionista debe estar autenticado en el sistema.
+Postcondiciones: El paciente queda registrado en el sistema con un identificador único, y sus datos están disponibles para la programación de turnos.
+2. Caso de uso: Asignar turno a paciente
+Nombre del caso de uso: Asignar turno a paciente
+Actor(es) involucrado(s): Recepcionista, Paciente, Médico
+Descripción breve: El recepcionista asigna un turno al paciente para una consulta con un médico específico.
+Flujo principal de eventos:
+El recepcionista accede al sistema de gestión de turnos.
+El recepcionista selecciona la opción "Asignar turno".
+El sistema muestra la lista de médicos disponibles y sus horarios.
+El recepcionista selecciona el médico y el horario deseado.
+El sistema muestra los turnos disponibles en ese horario y pregunta si el paciente es nuevo o ya está registrado.
+Si el paciente es nuevo, el recepcionista registra al paciente antes de asignar el turno.
+El recepcionista confirma la asignación del turno.
+El sistema guarda el turno en la base de datos y envía una notificación de confirmación al paciente.
+Precondiciones: El paciente debe estar registrado en el sistema, y el médico debe tener disponibilidad en el horario seleccionado.
+Postcondiciones: El turno se asigna y se guarda en la base de datos, y el paciente recibe la confirmación del turno.
+3. Caso de uso: Notificar recordatorio de turno
+Nombre del caso de uso: Notificar recordatorio de turno
+Actor(es) involucrado(s): Sistema, Paciente
+Descripción breve: El sistema envía un recordatorio de turno al paciente para que no olvide la cita médica.
+Flujo principal de eventos:
+El sistema revisa los turnos programados para el día.
+El sistema identifica los turnos próximos a realizarse.
+El sistema envía una notificación por correo electrónico o SMS al paciente recordándole la cita.
+El sistema confirma que el recordatorio ha sido enviado correctamente.
+Precondiciones: El paciente debe tener un turno programado y la información de contacto debe estar correctamente registrada en el sistema.
+Postcondiciones: El paciente recibe la notificación de recordatorio del turno.
+4. Caso de uso: Cancelar turno
+Nombre del caso de uso: Cancelar turno
+Actor(es) involucrado(s): Paciente, Recepcionista, Sistema
+Descripción breve: Permite al paciente cancelar un turno previamente asignado.
+Flujo principal de eventos:
+El paciente se comunica con el centro de salud para cancelar su turno.
+El recepcionista accede al sistema y busca el turno del paciente.
+El recepcionista selecciona la opción "Cancelar turno".
+El sistema verifica que el turno existe y está dentro del rango de cancelación.
+El sistema cancela el turno y lo elimina de la agenda del médico.
+El sistema envía una notificación al paciente confirmando la cancelación.
+Precondiciones: El paciente debe tener un turno programado y el turno debe ser cancelable (por ejemplo, no en las últimas horas previas).
+Postcondiciones: El turno se cancela y se libera el espacio para otros pacientes.
+5. Caso de uso: Generar reporte de turnos atendidos
+Nombre del caso de uso: Generar reporte de turnos atendidos
+Actor(es) involucrado(s): Administrador
+Descripción breve: El administrador genera un informe sobre los turnos atendidos en un periodo específico.
+Flujo principal de eventos:
+El administrador ingresa al sistema de gestión de turnos.
+El administrador selecciona la opción "Generar reporte de turnos atendidos".
+El sistema solicita el rango de fechas para el reporte.
+El administrador ingresa las fechas deseadas.
+El sistema genera un reporte con la cantidad de turnos atendidos por especialidad, médico, y otros detalles.
+El administrador descarga o visualiza el reporte generado.
+Precondiciones: El administrador debe estar autenticado y tener permisos para acceder a los informes.
+Postcondiciones: El reporte es generado y puesto a disposición del administrador, quien puede analizarlo para tomar decisiones
