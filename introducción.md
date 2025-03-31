@@ -13,15 +13,19 @@ Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
 1. Registro y gestión de pacientes
 
 El sistema debe permitir el registro de pacientes con sus datos básicos (nombre, edad, sexo, contacto, historial médico, etc.). Debe contar con la capacidad de actualizar los datos del paciente y vincularlos a los turnos programados. La gestión de pacientes debe ser eficiente para que el personal de recepción pueda acceder rápidamente a la información y a su historial médico.
+
 2. Programación y asignación de turnos
  
  El sistema debe permitir a los usuarios (personal administrativo) asignar turnos de manera eficiente según la disponibilidad de médicos y otros profesionales de salud. Debe manejar la asignación de turnos para diferentes especialidades y tipos de consulta (consulta general, urgencias, procedimientos, etc.). Los turnos deben ser programados con horarios precisos y permitir la opción de reprogramar o cancelar turnos en caso de necesidad.
+ 
 3. Gestión de disponibilidad de médicos y personal de salud
 
 El sistema debe permitir ingresar y actualizar la disponibilidad de los médicos y otros profesionales de la salud (como enfermeros, psicólogos, etc.), para asignar turnos de manera adecuada. Debe permitir que los médicos puedan tener días y horarios específicos de disponibilidad, y que los turnos sean gestionados en función de esa disponibilidad.
+
 4. Notificación y recordatorio de turnos
 
 El sistema debe enviar notificaciones automáticas a los pacientes para recordarles los turnos programados (por ejemplo, vía SMS, correo electrónico o a través de una app). Además, debe permitir enviar notificaciones en caso de cancelaciones o cambios en los horarios.
+
 5. Informes y estadísticas
 
 El sistema debe generar informes detallados sobre la ocupación de turnos, la cantidad de pacientes atendidos por especialidad, tiempos de espera, etc. Debe permitir la generación de estadísticas para ayudar a los administradores del centro de salud a tomar decisiones basadas en la demanda de servicios, la eficiencia del personal y el tiempo de atención.
