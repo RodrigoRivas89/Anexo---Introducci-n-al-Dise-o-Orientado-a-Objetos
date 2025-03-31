@@ -3,7 +3,7 @@ El paradigma orientado a objetos (POO) es un enfoque de programación que organi
 1. Encapsulación: Es el proceso de ocultar la implementación interna de un objeto y exponer sólo las interfaces públicas. Esto permite que los objetos mantengan suestado interno protegido de accesos no autorizados, promoviendo así lamodularidad y la seguridad del sistema.
 2. Abstracción: Consiste en simplificar la complejidad del mundo real modelando solo los aspectos esenciales relevantes para el sistema. Los objetos abstractos representan entidades del dominio de aplicación y sus interacciones, lo que facilita lacomprensión y el diseño del software.
 3. Herencia: Es un mecanismo que permite que un objeto herede propiedades y comportamientos de otro objeto. Esto fomenta la reutilización del código y lacreación de jerarquías de clases, donde las clases secundarias pueden extender o modificar el comportamiento de las clases primarias.
-4. Polimorfismo: Se refiere a la capacidad de los objetos de una misma jerarquía declases para responder de manera diferente a un mismo mensaje. Esto permite escribir código genérico que puede funcionar con varios tipos de objetos, promoviendo la flexibilidad y la extensibilidad del sistema.
+4. Polimorfismo: Se refiere a la capacidad de los objetos de una misma jerarquía declases para responder de manera diferente a un mismo mensaje. Esto permite escribir código genérico que puede funcionar con varios tipos de objetos, promoviendo la flexibilidad y la extensibilidad del sistema.-
 El POO es importante por su modularidad, su reutilización de código, su escalabilidad, su mantenimiento y su facilidad de compresión
 [insertar link]
 + Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
