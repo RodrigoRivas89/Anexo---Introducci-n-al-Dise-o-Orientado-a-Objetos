@@ -3,7 +3,8 @@ El paradigma orientado a objetos (POO) es un enfoque de programación que organi
 + Encapsulación: Es el proceso de ocultar la implementación interna de un objeto y exponer sólo las interfaces públicas. Esto permite que los objetos mantengan suestado interno protegido de accesos no autorizados, promoviendo así lamodularidad y la seguridad del sistema.
 + Abstracción: Consiste en simplificar la complejidad del mundo real modelando solo los aspectos esenciales relevantes para el sistema. Los objetos abstractos representan entidades del dominio de aplicación y sus interacciones, lo que facilita lacomprensión y el diseño del software.
 + Herencia: Es un mecanismo que permite que un objeto herede propiedades y comportamientos de otro objeto. Esto fomenta la reutilización del código y lacreación de jerarquías de clases, donde las clases secundarias pueden extender o modificar el comportamiento de las clases primarias.
-+ Polimorfismo: Se refiere a la capacidad de los objetos de una misma jerarquía declases para responder de manera diferente a un mismo mensaje. Esto permite escribir código genérico que puede funcionar con varios tipos de objetos, promoviendo la flexibilidad y la extensibilidad del sistema.-
++ Polimorfismo: Se refiere a la capacidad de los objetos de una misma jerarquía declases para responder de manera diferente a un mismo mensaje. Esto permite escribir código genérico que puede funcionar con varios tipos de objetos, promoviendo la flexibilidad y la extensibilidad del sistema.
+
 El POO es importante por su modularidad, su reutilización de código, su escalabilidad, su mantenimiento y su facilidad de compresión
 [insertar link]
 Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
@@ -14,6 +15,6 @@ El sistema debe permitir el registro de pacientes con sus datos básicos (nombre
 3. Gestión de disponibilidad de médicos y personal de salud
 El sistema debe permitir ingresar y actualizar la disponibilidad de los médicos y otros profesionales de la salud (como enfermeros, psicólogos, etc.), para asignar turnos de manera adecuada. Debe permitir que los médicos puedan tener días y horarios específicos de disponibilidad, y que los turnos sean gestionados en función de esa disponibilidad.
 4. Notificación y recordatorio de turnos
-+ El sistema debe enviar notificaciones automáticas a los pacientes para recordarles los turnos programados (por ejemplo, vía SMS, correo electrónico o a través de una app). Además, debe permitir enviar notificaciones en caso de cancelaciones o cambios en los horarios.
+El sistema debe enviar notificaciones automáticas a los pacientes para recordarles los turnos programados (por ejemplo, vía SMS, correo electrónico o a través de una app). Además, debe permitir enviar notificaciones en caso de cancelaciones o cambios en los horarios.
 5. Informes y estadísticas
 El sistema debe generar informes detallados sobre la ocupación de turnos, la cantidad de pacientes atendidos por especialidad, tiempos de espera, etc. Debe permitir la generación de estadísticas para ayudar a los administradores del centro de salud a tomar decisiones basadas en la demanda de servicios, la eficiencia del personal y el tiempo de atención.
