@@ -136,3 +136,4 @@ Precondiciones: El administrador debe estar autenticado y tener permisos para ac
 Postcondiciones: El reporte es generado y puesto a disposición del administrador, quien puede analizarlo para tomar decisiones
 
 ### Boceto inicial del diseño de clases
+[Boceto](
