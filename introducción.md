@@ -136,4 +136,4 @@ Precondiciones: El administrador debe estar autenticado y tener permisos para ac
 Postcondiciones: El reporte es generado y puesto a disposición del administrador, quien puede analizarlo para tomar decisiones
 
 ### Boceto inicial del diseño de clases
-[Boceto](
+[Boceto](https://github.com/RodrigoRivas89/Anexo---Introducci-n-al-Dise-o-Orientado-a-Objetos/blob/fc536c3310d4a45b272069f2df9f9653ac97ec8f/Boceto%20inicial%20del%20dise%C3%B1o%20de%20clases.drawio.png)
