@@ -7,10 +7,10 @@ El paradigma orientado a objetos (POO) es un enfoque de programación que organi
 
 El POO es importante por su modularidad, su reutilización de código, su escalabilidad, su mantenimiento y su facilidad de compresión
 
-### Los cuatro fundamentos del POO
+## Los cuatro fundamentos del POO
 [Ejemplos de los cuatros fundamentos del POO](https://github.com/RodrigoRivas89/Anexo---Introducci-n-al-Dise-o-Orientado-a-Objetos/blob/main/Los%20cuatro%20fundamentos%20del%20POO.drawio.png)
 
-### Requisitos iniciales del sistema
+## Requisitos iniciales del sistema
 Para que el sistema funcione se necesitará minimamente de estos 5 requisitos:
 1. Registro y gestión de pacientes
 
@@ -32,10 +32,10 @@ El sistema debe enviar notificaciones automáticas a los pacientes para recordar
 
 El sistema debe generar informes detallados sobre la ocupación de turnos, la cantidad de pacientes atendidos por especialidad, tiempos de espera, etc. Debe permitir la generación de estadísticas para ayudar a los administradores del centro de salud a tomar decisiones basadas en la demanda de servicios, la eficiencia del personal y el tiempo de atención.
 
-### Casos de uso
+## Casos de uso
 A continuación se mencionaran los casos de uso de los requisitos mencionados
 
-1. Caso de uso: Registrar paciente
+### 1. Caso de uso: Registrar paciente
 
 Nombre del caso de uso: Registrar paciente
 
@@ -55,7 +55,7 @@ Precondiciones: El recepcionista debe estar autenticado en el sistema.
 
 Postcondiciones: El paciente queda registrado en el sistema con un identificador único, y sus datos están disponibles para la programación de turnos.
 
-2. Caso de uso: Asignar turno a paciente
+### 2. Caso de uso: Asignar turno a paciente
 
 Nombre del caso de uso: Asignar turno a paciente
 
@@ -77,7 +77,7 @@ Precondiciones: El paciente debe estar registrado en el sistema, y el médico de
 
 Postcondiciones: El turno se asigna y se guarda en la base de datos, y el paciente recibe la confirmación del turno.
 
-3. Caso de uso: Notificar recordatorio de turno
+### 3. Caso de uso: Notificar recordatorio de turno
 
 Nombre del caso de uso: Notificar recordatorio de turno
 
@@ -95,7 +95,7 @@ Precondiciones: El paciente debe tener un turno programado y la información de 
 
 Postcondiciones: El paciente recibe la notificación de recordatorio del turno.
 
-4. Caso de uso: Cancelar turno
+### 4. Caso de uso: Cancelar turno
 
 Nombre del caso de uso: Cancelar turno
 
@@ -115,7 +115,7 @@ Precondiciones: El paciente debe tener un turno programado y el turno debe ser c
 
 Postcondiciones: El turno se cancela y se libera el espacio para otros pacientes.
 
-5. Caso de uso: Generar reporte de turnos atendidos
+### 5. Caso de uso: Generar reporte de turnos atendidos
 
 Nombre del caso de uso: Generar reporte de turnos atendidos
 
@@ -135,5 +135,5 @@ Precondiciones: El administrador debe estar autenticado y tener permisos para ac
 
 Postcondiciones: El reporte es generado y puesto a disposición del administrador, quien puede analizarlo para tomar decisiones
 
-### Boceto inicial del diseño de clases
+## Boceto inicial del diseño de clases
 [Boceto](https://github.com/RodrigoRivas89/Anexo---Introducci-n-al-Dise-o-Orientado-a-Objetos/blob/fc536c3310d4a45b272069f2df9f9653ac97ec8f/Boceto%20inicial%20del%20dise%C3%B1o%20de%20clases.drawio.png)
